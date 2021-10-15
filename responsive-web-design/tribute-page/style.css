@@ -1,0 +1,49 @@
+html {
+    font-family: monospace;
+    font-size: 18px;
+  }
+  body {
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffff;
+    font-size: 70px;
+  }
+  
+  img {
+    max-width: 100%;
+    width: 500px;
+    padding: 0 0 0 80px;
+    display: block;
+    margin: auto;
+  }
+  @media (max-width: 460px) {
+    img {
+      width: 200px;
+    }
+  }
+  
+  figcaption {
+    text-align: center;
+  }
+  
+  strong {
+    font-size: 17px;
+  }
+  
+  ul {
+    font-size: 14px;
+    margin: 5% 20%;
+  }
+  
+  li {
+    margin: 9%;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
