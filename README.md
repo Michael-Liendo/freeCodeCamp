@@ -12,15 +12,15 @@ In this repository will be the freeCodeCamp projects made by [Michael](https://w
 
 ## [Responsive Web Desing](./responsive-web-design/)
 
-- [FCC: Tribute Page](responsive-web-design/tribute-page)
+- [FCC: Tribute Page](responsive-web-design/tribute-page/)
 
-- [FCC: Survey Form](responsive-web-design/survey-form)
+- [FCC: Survey Form](responsive-web-design/survey-form/)
 
-- [FCC: Product Landing](responsive-web-design/product-landing)
+- [FCC: Product Landing](responsive-web-design/product-landing/)
 
-- [FCC: Technical Documentation](responsive-web-design/technical-documentation-page)
+- [FCC: Technical Documentation](responsive-web-design/technical-documentation-page/)
 
-- [FCC: Personal Portfolio](responsive-web-design/personal-portfolio)
+- [FCC: Personal Portfolio](responsive-web-design/personal-portfolio/)
 
 
 # Disclaimer
