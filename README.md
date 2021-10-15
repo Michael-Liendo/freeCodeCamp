@@ -22,6 +22,18 @@ In this repository will be the freeCodeCamp projects made by [Michael](https://w
 
 - [FCC: Personal Portfolio](responsive-web-design/personal-portfolio/)
 
+## [Javascript Algorithms and Data Structures](./javascript-algorithms-and-data-structures/)
+
+- [Palindrome Checker](javascript-algorithms-and-data-structures/palindrome-checker.js)
+
+- [Roman Numeral Converter](javascript-algorithms-and-data-structures/roman-numeral-converter.js)
+
+- [Caesars Cipher](javascript-algorithms-and-data-structures/caesars-cipher.js)
+
+- [Telephone Number Validator](javascript-algorithms-and-data-structures/telephone-number-validator.js)
+
+- [Cash Register](javascript-algorithms-and-data-structures/cash-register.js)
+
 
 # Disclaimer
 
