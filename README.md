@@ -12,9 +12,9 @@ In this repository will be the freeCodeCamp projects made by [Michael](https://w
 
 ## [Responsive Web Desing](./responsive-web-design/)
 
-- [FCC: Tribute Page](./responsive-web-desing/tribute-page/)
+- [FCC: Tribute Page](./responsive-web-desing/)
 
-- [FCC: Survey Form](./responsive-web-design/survey-form/)
+- [FCC: Survey Form](./responsive-web-design/)
 
 
 # Disclaimer
