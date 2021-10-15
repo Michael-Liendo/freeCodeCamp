@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FCC: Product Landing</title>
+
+        <link rel="stylesheet" href="style.css" />
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </head>
+    <body>
+        <div>
+            <header id="header">
+                <img
+                    id="header-img"
+                    class="img"
+                    src="https://imgur.com/RX0sO9j.jpg"
+                    alt="Mitsua Your Name"
+                />
+                <div class="nav-bar">
+                    <nav id="nav-bar">
+                        <ul>
+                            <li>
+                                <a class="nav-link" href="#email"
+                                    >New Produts</a
+                                >
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#video"
+                                    >Coming soon</a
+                                >
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#submit"
+                                    >¿Qué deseas?</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="content">
+                <div class="form">
+                    <form
+                        id="form"
+                        action="https://www.freecodecamp.com/email-submit"
+                    >
+                        <input
+                            class="input"
+                            name="email"
+                            id="email"
+                            type="email"
+                            placeholder="Enter your email address"
+                            required
+                        />
+                        <input
+                            class="button"
+                            id="submit"
+                            type="submit"
+                            value="Get Started"
+                        />
+                    </form>
+                </div>
+                <div class="video">
+                    <iframe
+                        id="video"
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/vPpzLydPmHQ"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const projectName = "product-landing-page";
+        </script>
+    </body>
+</html>
