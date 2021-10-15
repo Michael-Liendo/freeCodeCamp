@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FCC: Survey Form</title>
+
+        <link rel="stylesheet" href="style.css" />
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </head>
+    <body>
+        <h1 id="title" class="text-center">¿Qué tanto conoces a Michael?</h1>
+        <p id="description" class="text-center">
+            Es un formulario para saber que tanto lo conoces
+        </p>
+        <p></p>
+        <div class="contenedor">
+            <form class="form" id="survey-form">
+                <label id="name-label">Coloca tu nombre</label> <br />
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Put Your name"
+                    required
+                />
+                <br />
+                <br />
+
+                <label id="email-label">Coloca tu email</label> <br />
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Put Your email"
+                    required
+                />
+                <br />
+                <br />
+                <br />
+
+                <label id="nombre"
+                    >¿Cuál es el nombre completo de Michael?</label
+                >
+                <br />
+                <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Coloca el nombre aqui"
+                />
+                <br />
+                <br />
+
+                <label id="number-label">¿Cuántos años tiene Michael?</label>
+                <br />
+                <input
+                    type="number"
+                    id="number"
+                    min="1"
+                    max="99"
+                    placeholder="Here!"
+                />
+                <br />
+                <br />
+
+                <label>¿Qué le gusta hacer a Michael?</label> <br />
+                <select id="dropdown">
+                    <option>..</option>
+                    <option>Programar</option>
+                    <option>Pelear</option>
+                    <option>Mentir</option>
+                </select>
+                <br />
+                <br />
+                <br />
+
+                <label>¿Cuál es el color favorito de Michael?</label><br />
+                <input
+                    type="radio"
+                    id="amarillo"
+                    name="name"
+                    value="Amarillo"
+                />
+                <label for="amarillo">Amarillo</label><br />
+                <input type="radio" id="Gris" name="name" value="Gris" />
+                <label for="Gris">Gris</label><br />
+                <input type="radio" id="Naranja" name="name" value="Naranja" />
+                <label for="Naranja">Naranja</label>
+                <br />
+                <br />
+
+                <label>¿Qué le gusta hacer a Michael?</label> <br />
+                <input
+                    type="checkbox"
+                    id="programar"
+                    name="programar"
+                    value="programming"
+                />
+                <label for="programar"> Programar</label><br />
+                <input
+                    type="checkbox"
+                    id="charlar"
+                    name="charlar"
+                    value="chating"
+                />
+                <label for="charlar"> Hablar con su mejor amiga</label><br />
+                <input
+                    type="checkbox"
+                    id="learning"
+                    name="learning"
+                    value="learning"
+                />
+                <label for="learning"> Aprender cosas nuevas</label><br />
+                <input type="checkbox" id="salir" name="salir" value="salir" />
+                <label for="salir"> Salir</label>
+                <br />
+                <br />
+
+                <label
+                    >Dile algo a Michael que siempre le quisiste decir.
+                    <br /><small
+                        >y no has podido, o no has encontrado la opotunidad, o
+                        simplemente te da pena</small
+                    ></label
+                ><br />
+                <textarea
+                    placeholder="Vamos, dile esa cosa "
+                    name="text"
+                    rows="4"
+                    cols="25"
+                ></textarea>
+                <br />
+                <br />
+
+                <button class="button" id="submit" type="submit">Listo!</button>
+            </form>
+        </div>
+        <script>
+            const projectName = "survey-form";
+        </script>
+    </body>
+</html>
